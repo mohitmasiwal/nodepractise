@@ -10,5 +10,5 @@ fs.readFile("read.txt", "utf8", (err, data) => {
 });
 
 
- const data =fs.readFileSync("read.txt","utf8")
- console.log(data)
+ const data =fs.unlinkSync("read.txt","utf8")
+ 
