@@ -1,9 +1,7 @@
- 
-const { log } = require("console");
-const fs = require("fs");
+ const getdata=()=>{
+    let name = document.getElementById('name').value;
+    console.log(name);
+ }
 
-fs.readFile("new.txt","UTF-8", (err,data)=>{
-    console.log(data)
-    console.log(err)
-})
+ 
 
