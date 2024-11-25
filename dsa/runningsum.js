@@ -1,10 +1,10 @@
-let arr = [1,2,3,4];
+let arr = [[1,2,3,4],[9,3,4,2],[3,4,56,7]];
  
-for(let i=0;i<arr.length;i++) {
- for(let j=0;j<arr.length;j++) {
-
-    for(k=0;k<arr.length;k++) {
-        
-    }
+ for(let i =0;i<arr[0].length;i++){
+   let str='';
+   for(let j=0;j<arr.length;j++){
+       str += arr[j][i]
+   }
+   console.log(str);
+   
  }
-}
