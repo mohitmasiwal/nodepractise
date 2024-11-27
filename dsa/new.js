@@ -14,7 +14,14 @@ const products = [
 
    let count ={}
   for(var i=0; i<products.length; i++){
-
+if(count[products[i].category]){
+    count[products[i].category] += 1;
+}else{
+    count[products[i].category] = 1;
+}
 
   }
+  
+  console.log(count);
+  
   
