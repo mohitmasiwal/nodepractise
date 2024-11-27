@@ -25,8 +25,9 @@ for(let i=0; i<arr.length; i++){
 currsum += arr[i];
 }
 console.log(sum - currsum
-
     
+
+
 );
 
 
